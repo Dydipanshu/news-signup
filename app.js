@@ -60,10 +60,9 @@ app.post("/failure",function(req,res){
     res.redirect("/")
 })
 
-app.listen(process.env.PORT || 3000,function(){
+app.listen(3000,function(){
     console.log("Server is running on port 3000") ;
 }) ;
-
 //API KEY
 //fa884618edd37316b23b404b795d03be-us10
 
